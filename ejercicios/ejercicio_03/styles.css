@@ -27,13 +27,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 main {
@@ -43,25 +39,54 @@ main {
 
 .image-container {
     margin: 20px auto;
-    width: 300px;
+    width: 100%;
 }
 
 .image-container img {
-    width: 100%;
+    width: 300px;
     height: auto;
     border-radius: 10px;
+    position: relative;
+    animation: img-position 1s linear both;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #28a745;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    background: linear-gradient(45deg, #007BFF, #FF5722);
+    background-size: 200% 200%; /* Aumentar el tamaño del fondo */
+    animation: btn-color-diagonal 2s linear infinite;
 }
 
 .btn:hover {
-    background-color: #218838;
+    scale: 1.1;
+}
+
+@keyframes btn-color-diagonal {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes img-position {
+    from {
+        width: 10px;
+        border-radius: 0;
+        opacity: 0.2;
+    }
+    to {
+        width: 300px;
+        opacity: 1;
+        border-radius: 100px;
+    }
 }
