@@ -1,0 +1,83 @@
+/* Selector de Tipo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Selectores de Clase */
+.intro {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+}
+
+.services {
+    background-color: #e2e2e2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact-form {
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Selector ID */
+#titulo-principal {
+    color: #333;
+    text-align: center;
+}
+
+/* Selectores de Pseudo-clases */
+a:hover {
+    color: #007BFF;
+}
+
+/* Selectores de Pseudo-elementos */
+h1::before {
+    content: "🌟 ";
+    color: #FFD700;
+}
+
+/* Selector de Atributo */
+a[title] {
+    text-decoration: underline;
+}
+
+/* Selectores de Combinadores */
+header > nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header > nav ul li {
+    margin: 0 15px;
+}
+
+main > section h2 + p {
+    margin-top: 0;
+}
+
+/* Selector Universal */
+* {
+    box-sizing: border-box;
+}
+
+/* Selector de Descendencia */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
