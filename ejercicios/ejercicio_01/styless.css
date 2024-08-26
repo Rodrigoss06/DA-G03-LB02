@@ -1,83 +1,35 @@
-/* Selector de Tipo */
+/* Selectores de etiqueta */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
-/* Selectores de Clase */
-.intro {
-    background-color: #f4f4f4;
+/* Selectores de clase */
+.main-section {
     padding: 20px;
-    margin: 10px;
+    background-color: #f9f9f9;
 }
 
-.services {
-    background-color: #e2e2e2;
-    padding: 20px;
-    margin: 10px;
-}
-
-.contact-form {
-    background-color: #dcdcdc;
-    padding: 20px;
-    margin: 10px;
-}
-
-/* Selector ID */
-#titulo-principal {
-    color: #333;
+/* Selectores de ID */
+#header {
+    background-color: #4CAF50;
+    padding: 15px;
     text-align: center;
 }
 
-/* Selectores de Pseudo-clases */
+/* Selectores de pseudo-clases */
 a:hover {
-    color: #007BFF;
+    color: red;
 }
 
-/* Selectores de Pseudo-elementos */
-h1::before {
-    content: "🌟 ";
-    color: #FFD700;
+/* Selectores de pseudo-elementos */
+p::first-line {
+    font-weight: bold;
 }
 
-/* Selector de Atributo */
-a[title] {
-    text-decoration: underline;
-}
-
-/* Selectores de Combinadores */
-header > nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-header > nav ul li {
-    margin: 0 15px;
-}
-
-main > section h2 + p {
-    margin-top: 0;
-}
-
-/* Selector Universal */
-* {
-    box-sizing: border-box;
-}
-
-/* Selector de Descendencia */
-form label {
-    display: block;
-    margin-top: 10px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+/* Selectores de atributo */
+input[type="text"], input[type="email"] {
     border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 5px;
 }
