@@ -37,6 +37,13 @@ main {
     text-align: center;
 }
 
+.gallery-img {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(12,200px);
+    grid-template-columns: repeat(2,300px);
+}
+
 .image-container {
     margin: 20px auto;
     width: 100%;
@@ -58,14 +65,9 @@ main {
     border-radius: 5px;
     margin-top: 20px;
     background: linear-gradient(45deg, #007BFF, #FF5722);
-    background-size: 200% 200%; /* Aumentar el tamaño del fondo */
+    background-size: 200% 200%; 
     animation: btn-color-diagonal 2s linear infinite;
 }
-
-.btn:hover {
-    scale: 1.1;
-}
-
 @keyframes btn-color-diagonal {
     0% {
         background-position: 0% 0%;
@@ -77,6 +79,27 @@ main {
         background-position: 0% 0%;
     }
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    backdrop-filter: opacity(0.9);
+    padding: 15px;
+    transition: all 2s ease;
+}
+nav:hover {
+    background-color: #007BFF;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 999px;
+    transition: all 2s ease-out;
+}
+
+.btn:hover {
+    scale: 1.1;
+}
+
 
 @keyframes img-position {
     from {
