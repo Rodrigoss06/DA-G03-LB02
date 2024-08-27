@@ -1,1 +1,54 @@
+/* Estilos para el encabezado */
+#header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-heading {
+    font-size: 2em;
+}
+
+/* Estilos para la navegacion */
+#navigation {
+    background-color: #333;
+    padding: 10px;
+}
+
+#home-link, #services-link, #contact-link {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilos para la seccion principal */
+#main-content {
+    padding: 20px;
+}
+
+#article1, #article2 {
+    margin-bottom: 20px;
+}
+
+#article1-heading, #article2-heading {
+    color: #4CAF50;
+}
+
+#article1-text, #article2-text {
+    font-size: 16px;
+}
+
+/* Estilos para el pie de pagina */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer-text {
+    font-size: 0.8em;
+}
 
