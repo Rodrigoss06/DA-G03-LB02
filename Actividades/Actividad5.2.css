@@ -1,0 +1,38 @@
+ .relative-width {
+    width: 50%;
+    background-color: #f2f2f2;
+}
+ .relative-height {
+    height: 75%;
+    background-color: #cccccc;
+ }
+
+ .relative-margin {
+    margin: 10%;
+    background-color: #00698f;
+}   
+.vw-width {
+    width: 20vw;
+    background-color: #f2f2f2;
+}
+.vh-height {
+    height: 30vh;
+    background-color: #cccccc;
+}
+  
+.vw-margin {
+    margin: 5vw;
+    background-color: #00698f;
+}
+.vmin-width {
+    width: 20vmin;
+    background-color: #f2f2f2;
+}
+.vmax-height {
+    height: 30vmax;
+    background-color: #cccccc;
+}
+.vmin-margin {
+    margin: 5vmin;
+    background-color: #00698f;
+}
