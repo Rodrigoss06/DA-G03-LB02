@@ -1,0 +1,47 @@
+ .fixed-size {
+    width: 200px;
+    height: 100px;
+    background-color: #f2f2f2;
+}
+    .margin-fixed {
+        margin: 20px;
+        background-color: #cccccc;
+        }
+    .padding-fixed {
+        padding: 10px 20px;
+        background-color: #00698f;
+    }
+    .relative-width {
+        width: 50%;
+        background-color: #f2f2f2;
+    }
+    .relative-height {
+        height: 75%;
+        background-color: #cccccc;
+    }
+    .relative-margin {
+        margin: 10%;
+        background-color: #00698f;
+    }
+    .font-size-em {
+        font-size: 1.5em;
+    }
+    .line-spacing-em {
+        line-height: 1.2em;
+    }
+    .border-width-em {
+        border-width: 0.5em;
+        border-style: solid;
+        border-color: #00698f;
+    }
+    .font-size-rem {
+        font-size: 1.5rem;
+    }
+    .line-spacing-rem {
+        line-height: 1.2rem;
+    }
+    .border-width-rem {
+        border-width: 0.5rem;
+        border-style: solid;
+        border-color: #00698f;
+    }
