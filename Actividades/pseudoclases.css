@@ -1,0 +1,51 @@
+/* 1. Selecciona enlaces cuando se les pasa el mouse por encima */
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+/* 2. Selecciona elementos que son el primer hijo de su tipo */
+li:first-of-type {
+    font-weight: bold;
+}
+
+/* 3. Selecciona todos los elementos que están deshabilitados */
+input:disabled {
+    background-color: lightgray;
+}
+
+/* 4. Selecciona los elementos `p` que son el único hijo de su padre */
+p:only-child {
+    color: blue;
+}
+
+/* 5. Selecciona enlaces que ya han sido visitados */
+a:visited {
+    color: purple;
+}
+
+/* 6. Selecciona elementos `input` de tipo texto que estén enfocados */
+input[type="text"]:focus {
+    border-color: red;
+}
+
+/* 7. Selecciona el último hijo de un elemento */
+div:last-child {
+    background-color: yellow;
+}
+
+/* 8. Selecciona todos los `li` que sean de número impar */
+li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/* 9. Selecciona elementos `button` que no estén deshabilitados */
+button:not([disabled]) {
+    background-color: green;
+    color: white;
+}
+
+/* 10. Selecciona todos los elementos que están vacíos */
+div:empty {
+    display: none;
+}

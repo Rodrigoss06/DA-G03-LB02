@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Define la codificación de caracteres y la configuración del viewport para dispositivos móviles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Pseudo-clases CSS</title>
+    
+    <!-- Vincula el archivo CSS llamado pseudoclases.css donde se encuentran las reglas CSS -->
+    <link rel="stylesheet" href="pseudoclases.css">
+</head>
+<body>
+
+    <!-- Encabezado principal que describe el propósito de la página -->
+    <h1>Ejemplos de Pseudo-clases en CSS</h1>
+
+    <!-- 1. Párrafo que contiene un enlace con un efecto hover -->
+    <p>Prueba de <a href="#">enlace con hover</a></p>
+
+    <!-- 2. Lista no ordenada donde el primer elemento será estilizado usando la pseudo-clase :first-of-type -->
+    <ul>
+        <li>Primer ítem</li>
+        <li>Segundo ítem</li>
+        <li>Tercer ítem</li>
+    </ul>
+
+    <!-- 3. Campo de entrada deshabilitado que será estilizado usando la pseudo-clase :disabled -->
+    <input type="text" value="Deshabilitado" disabled>
+
+    <!-- 4. Div que contiene un párrafo, el cual es el único hijo del div, y será estilizado usando la pseudo-clase :only-child -->
+    <div>
+        <p>Este es el único hijo en este div.</p>
+    </div>
+
+    <!-- 5. Enlace que, una vez visitado, cambiará su estilo usando la pseudo-clase :visited -->
+    <p>Prueba de <a href="https://www.example.com" target="_blank">enlace visitado</a></p>
+
+    <!-- 6. Campo de entrada que cambia su estilo cuando es enfocado usando la pseudo-clase :focus -->
+    <p>Prueba de input enfocado:</p>
+    <input type="text" placeholder="Haz clic aquí">
+
+    <!-- 7. Div que contiene dos párrafos, donde el último será estilizado usando la pseudo-clase :last-child -->
+    <div>
+        <p>Primer párrafo en div.</p>
+        <p>Último párrafo en div.</p>
+    </div>
+
+    <!-- 8. Lista no ordenada donde los ítems en posiciones impares tendrán un estilo diferente usando la pseudo-clase :nth-child(odd) -->
+    <ul>
+        <li>Ítem 1</li>
+        <li>Ítem 2</li>
+        <li>Ítem 3</li>
+        <li>Ítem 4</li>
+        <li>Ítem 5</li>
+    </ul>
+
+    <!-- 9. Dos botones, uno habilitado y otro deshabilitado. El botón habilitado será estilizado usando la pseudo-clase :not([disabled]) -->
+    <button>Botón habilitado</button>
+    <button disabled>Botón deshabilitado</button>
+
+    <!-- 10. Un div vacío que puede ser estilizado usando la pseudo-clase :empty para ocultarlo o aplicarle algún estilo específico -->
+    <div></div>
+
+</body>
+</html>

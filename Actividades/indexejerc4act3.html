@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Herencia y Cascada en CSS</title>
+    <link rel="stylesheet" href="hereciaycascada.css">
+</head>
+<body>
+
+    <!-- Texto heredando el color y fuente del body -->
+    <h1>Herencia y Cascada en CSS</h1>
+    
+    <article>
+        <h2>Herencia</h2>
+        <div>
+            <p>Este es un párrafo dentro de un div</p>
+            <blockquote>Cita dentro de un div con <span>herencia</span> de estilo cursiva.</blockquote>
+            <strong>Texto en strong usando subrayado</strong>
+        </div>
+    </article>
+
+    <p id="special-paragraph">Este párrafo usa un color sobrescrito por un ID.</p>
+
+    <!-- Enlaces que heredan y sobrescriben colores -->
+    <p>Visita <a href="https://www.example.com" target="_blank">este enlace</a> y observa el cambio de color al hacer hover.</p>
+
+    <!-- Div con estilo sobrescrito por una clase -->
+    <div class="highlight">
+        Este div tiene un fondo sobrescrito por la clase "highlight".
+    </div>
+
+    <!-- Header con tamaño de fuente reducido por clase -->
+    <h1 class="small-header">Header de tamaño distinto, waaaa</h1>
+
+    <!-- Div con padding sobrescrito por un ID -->
+    <div id="specific-div">
+        Este div tiene padding específico debido a un ID.
+    </div>
+
+</body>
+</html>

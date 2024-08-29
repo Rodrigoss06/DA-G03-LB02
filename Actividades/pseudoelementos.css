@@ -1,0 +1,44 @@
+/* 1. Insertar contenido antes de un párrafo */
+p::before {
+    content: "Nota: ";
+    font-weight: bold;
+    color: red;
+}
+
+/* 2. Insertar contenido después de un enlace */
+a::after {
+    content: " ↗";
+    font-size: 12px;
+    color: gray;
+}
+
+/* 3. Seleccionar la primera letra de un párrafo */
+p::first-letter {
+    font-size: 2em;
+    color: blue;
+}
+
+/* 4. Seleccionar la primera línea de un párrafo */
+p::first-line {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* 5. Aplicar estilos a la selección de texto */
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+/* 6. Insertar contenido personalizado antes de un título */
+h1::before {
+    content: "🔹 ";
+    font-size: 1.2em;
+}
+
+/* 7. Insertar contenido personalizado después de un título */
+h2::after {
+    content: " 🔻";
+    font-size: 1.2em;
+    color: darkred;
+}

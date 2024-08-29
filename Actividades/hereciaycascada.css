@@ -1,0 +1,76 @@
+/* 1. El color y fuente definidos en body se heredan a todos los elementos hijos */
+body {
+    font-family: Arial, sans-serif;
+    color: darkslategray;
+}
+
+/* 2. Los elementos dentro de un div heredan el color de texto */
+div {
+    color: darkred;
+}
+
+/* 3. El color de los enlaces se hereda, a menos que se sobrescriba */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 4. El tamaño de fuente se hereda, excepto donde se sobrescribe */
+p {
+    font-size: 16px;
+}
+
+/* 5. Estilo de subrayado en strong heredado */
+strong {
+    text-decoration: underline;
+}
+
+/* 6. Color de los títulos h2 heredado de un contenedor */
+article h2 {
+    color: inherit;
+}
+
+/* 7. Estilo cursiva heredado en los span dentro de un bloquequote */
+blockquote span {
+    font-style: inherit;
+}
+/* 1. Color por defecto es gris, pero el selector de ID sobrescribe */
+p {
+    color: gray;
+}
+#special-paragraph {
+    color: blue;
+}
+
+/* 2. Estilo por defecto para enlaces, pero con hover sobrescrito */
+a {
+    color: purple;
+}
+a:hover {
+    color: orange;
+}
+
+/* 3. Fondo por defecto es blanco, pero el selector de clase sobrescribe */
+div {
+    background-color: white;
+}
+div.highlight {
+    background-color: yellow;
+}
+
+/* 4. Tamaño de fuente por defecto para h1 es grande, pero se reduce para clases específicas */
+h1 {
+    font-size: 36px;
+}
+.small-header {
+    font-size: 24px;
+}
+
+/* 5. Padding general en div, pero con padding específico sobrescrito en un ID */
+div {
+    padding: 10px;
+}
+#specific-div {
+    padding: 20px;
+    background-color: lightblue;
+}

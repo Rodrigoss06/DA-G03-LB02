@@ -1,0 +1,70 @@
+/* 1. Selecciona un elemento p que esté dentro de un div */
+div p {
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* 2. Selecciona todos los elementos li que sean el primer hijo en su ul */
+ul li:first-child {
+    color: green;
+}
+
+/* 3. Selecciona un enlace que esté dentro de un párrafo */
+p a {
+    color: red;
+    text-decoration: none;
+}
+
+/* 4. Selecciona un input que esté enfocado y que sea hijo de un div */
+div input:focus {
+    border: 2px solid purple;
+}
+
+/* 5. Selecciona el último párrafo dentro de un div */
+div p:last-child {
+    font-style: italic;
+    color: darkred;
+}
+
+/* 6. Selecciona un span que sea hijo inmediato de un h1 */
+h1 > span {
+    color: orange;
+    font-size: 1.5em;
+}
+
+/* 7. Selecciona un p que sea hermano inmediato de un h2 */
+h2 + p {
+    color: blue;
+    background-color: lightgray;
+}
+/* 1. Aplica un fondo gris a todos los elementos h1 y h2 */
+h1, h2 {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* 2. Estiliza todos los enlaces y botones */
+a, button {
+    color: white;
+    background-color: navy;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* 3. Aplica un margen a todos los párrafos y listas */
+p, ul {
+    margin: 15px 0;
+}
+
+/* 4. Estiliza inputs de tipo text y buttons */
+input[type="text"], button {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* 5. Aplica un color a elementos span y strong */
+span, strong {
+    color: darkgreen;
+}

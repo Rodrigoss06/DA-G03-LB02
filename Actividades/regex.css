@@ -1,0 +1,32 @@
+/* 1. Selecciona elementos cuyos atributos 'class' comiencen con 'btn-' */
+[class^="btn-"] {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 2. Selecciona elementos cuyos atributos 'href' terminen con '.pdf' */
+a[href$=".pdf"] {
+    color: red;
+    text-decoration: underline;
+}
+
+/* 3. Selecciona elementos cuyos atributos 'title' contengan la palabra 'important' */
+[title*="important"] {
+    font-weight: bold;
+    color: green;
+}
+
+/* 4. Selecciona inputs cuyo tipo comience con 'text' (ej. 'text', 'textarea') */
+input[type^="text"] {
+    border: 2px solid orange;
+    padding: 5px;
+}
+
+/* 5. Selecciona enlaces externos (que comienzan con 'http') */
+a[href^="http"] {
+    color: purple;
+    text-decoration: none;
+    font-style: italic;
+}
